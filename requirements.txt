@@ -1,0 +1,18 @@
+# Python 3.10; versions from the existing EEGPT environment.
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+scipy==1.10.1
+scikit-learn==1.4.1.post1
+pandas==2.3.3
+h5py==3.8.0
+timm==0.9.16
+peft==0.7.0
+transformers==4.35.2
+accelerate==0.25.0
+einops==0.7.0
+linear-attention-transformer==0.19.1
+mne==1.4.2
+matplotlib==3.7.1
+joblib==1.2.0
+tqdm==4.65.0
