@@ -6,7 +6,7 @@ lora_alpha=32
 lora_dropout=0.1
 cuda_device="cuda:6"
 
-source activate EEGPT
+source activate rest-tuning
 export PYTHONPATH=.:$PYTHONPATH
 
 cls_fitune_types=( "lora" "full" "linear"  )

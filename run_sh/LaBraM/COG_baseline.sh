@@ -7,7 +7,7 @@ cuda_device="cuda:0"
 subject_id=1
 recon_path="./result/LaBraM/baseline_continue_pretrain_${subject_id}"
 
-source activate EEGPT
+source activate rest-tuning
 for cls_type in  "full" "lora"
 do
     python3 ./train/run_multitask_baseline.py \

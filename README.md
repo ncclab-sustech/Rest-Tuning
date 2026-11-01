@@ -19,11 +19,11 @@ Rest-Tuning personalizes an EEG foundation model using a subject's resting-state
 
 ## Installation
 
-The experiments use the **EEGPT** Conda environment: Python **3.10.19**, PyTorch **2.5.1**, and CUDA **12.1**. To create a matching environment:
+The **rest-tuning** Conda environment uses Python **3.10.19**, PyTorch **2.5.1**, and CUDA **12.1**. To create a matching environment:
 
 ```bash
-conda create -n EEGPT python=3.10.19
-conda activate EEGPT
+conda create -n rest-tuning python=3.10.19
+conda activate rest-tuning
 pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements.txt
 ```

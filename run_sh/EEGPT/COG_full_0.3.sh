@@ -7,7 +7,7 @@ lora_dropout=0.1
 cuda_device="cuda:4"
 
 export PYTHONPATH=.:$PYTHONPATH
-source activate EEGPT
+source activate rest-tuning
 python3 ./train/run_eegpt_rest.py \
     --model "EEGPT" \
     --pretrained_path ../checkpoints/eegpt_mcae_58chs_4s_large4E.ckpt \

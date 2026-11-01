@@ -6,7 +6,7 @@ lora_dropout=0.1
 cuda_device="cuda:0"
 recon_path="./result/LaBraM/baseline"
 
-source activate EEGPT
+source activate rest-tuning
 
 for cls_type in  "lora" "linear" "full"
 do
